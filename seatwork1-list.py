@@ -30,8 +30,19 @@ The element has been deleted
 This is the new array: Array: [1, 4, 3, 4, 5, 6 ,2 ,56, 200]
 """
 
+print("Give ten random numbers to be listed")
+first = int(input("First Number: "))
+second = int(input("Second Number: "))
+third = int(input("Third Number: "))
+fourth = int(input("Fourth Number: "))
+fifth = int(input("Fifth Number: "))
+sixth = int(input("Sixth Number: "))
+seventh = int(input("Seventh Number: "))
+eight = int(input("Eighth Number: "))
+ninth = int(input("Ninth Number: "))
+tenth = int(input("Tenth Number: "))
 while True:
-    list1 = [30, 25, 19, 39, 96, 29, 12, 72, 54, 49]
+    list1 = [first, second, third, fourth, fifth, sixth, seventh, eight, ninth, tenth]
     print("------------------------------------------------------------------------------------------")
     print(list1)
     print("------------------------------------------------------------------------------------------")
